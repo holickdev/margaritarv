@@ -1,10 +1,11 @@
 import { Mail, Phone, MapPin, Instagram } from "lucide-react";
 import logo from "./../assets/img/logo.webp";
+import { Button } from "./ui/button";
 
 
 export function Footer() {
   return (
-    <footer className="bg-white text-gray-800">
+    <footer id="contacto" className="bg-white text-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8 items-start">
           <div className="space-y-4 md:col-span-2">
@@ -32,7 +33,7 @@ export function Footer() {
             <div className="space-y-3 text-sm text-gray-700">
               <div className="flex items-center">
                 <Phone className="w-5 h-5 mr-3 text-[#00A99D]" />
-                <a href="https://wa.me/584120378660" className="hover:underline">+58 (412) 037-8660</a>
+                <a href="tel:+584120378660" className="hover:underline">+58 (412) 037-8660</a>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 mr-3 text-[#00A99D]" />
@@ -47,7 +48,7 @@ export function Footer() {
                 </span>
               </div>
 
-              <a href="#contacto" className="block mt-2 text-center bg-[#00A99D] text-white px-4 py-2 rounded-md font-semibold">Enviar mensaje</a>
+              <Button><a href="https://wa.me/584120378660" className="block mt-2 text-center bg-[#00A99D] text-white px-4 py-2 rounded-md font-semibold">Enviar mensaje</a></Button>
             </div>
           </div>
         </div>
