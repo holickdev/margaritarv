@@ -1,13 +1,33 @@
+import { useEffect } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import handshake from './../assets/img/handshake-house.jpg';
+import familyfun from './../assets/img/family-fun.jpg';
 
 export function About() {
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in-view");
+          }
+        });
+      },
+      { threshold: 0.12 }
+    );
+
+    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section id="nosotros" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Visión */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-          <div>
-            <h2 className="text-3xl md:text-4xl text-primary mb-6">
+        <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
+          <div className="reveal">
+            <h2 className="text-3xl md:text-4xl text-[#00A99D] mb-6 accent-underline">
               Nuestra Visión
             </h2>
             <div className="space-y-4 text-gray-700">
@@ -26,26 +46,30 @@ export function About() {
               </p>
             </div>
           </div>
-          <div className="relative">
-            <ImageWithFallback
-              src="https://images.unsplash.com/photo-1649769425782-8cdb757da2b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjByZWFsJTIwZXN0YXRlJTIwaG9tZXxlbnwxfHx8fDE3NTkxODg4Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="Hogar de lujo"
-              className="w-full h-96 object-cover rounded-lg shadow-lg"
-            />
+          <div className="relative reveal">
+            <div className="overflow-hidden rounded-lg">
+              <ImageWithFallback
+                src={familyfun}
+                alt="Hogar de lujo"
+                className="w-full object-cover about-image"
+              />
+            </div>
           </div>
         </div>
 
         {/* Misión */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="order-2 lg:order-1">
-            <ImageWithFallback
-              src="https://images.unsplash.com/photo-1652878530627-cc6f063e3947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwY29uc3VsdGF0aW9uJTIwbWVldGluZ3xlbnwxfHx8fDE3NTkxODg4NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="Consultoría inmobiliaria"
-              className="w-full h-96 object-cover rounded-lg shadow-lg"
-            />
+        <div className="grid lg:grid-cols-2 gap-12 items-center mt-8">
+          <div className="order-2 lg:order-1 reveal">
+            <div className="overflow-hidden rounded-lg">
+              <ImageWithFallback
+                src={handshake}
+                alt="Consultoría inmobiliaria"
+                className="w-full object-cover about-image"
+              />
+            </div>
           </div>
-          <div className="order-1 lg:order-2">
-            <h2 className="text-3xl md:text-4xl text-primary mb-6">
+          <div className="order-1 lg:order-2 reveal">
+            <h2 className="text-3xl md:text-4xl text-[#00A99D] mb-6 accent-underline">
               Nuestra Misión
             </h2>
             <div className="space-y-4 text-gray-700">

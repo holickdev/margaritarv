@@ -1,0 +1,75 @@
+
+Manual de Marca: Margarita RV
+Guía para la Creación de la Landing Page
+Este manual es la guía fundamental para comunicar la esencia de Margarita RV. Su propósito es asegurar que nuestra presencia digital, empezando por la landing page, refleje de manera consistente nuestros valores, nuestra visión y la calidez humana que nos define.
+
+1. La Esencia de la Marca (El Porqué)
+Antes de cualquier elemento de diseño, debemos entender quiénes somos.
+
+Arquetipo de Marca: El Cuidador / El Guía Amigo. No somos simples vendedores; somos asesores, confidentes y la mano amiga que acompaña a las personas en una de las decisiones más importantes de su vida.
+
+Personalidad de la Marca:
+
+Cercana y Humana: Hablamos de "tú a tú". Generamos confianza a través de la empatía.
+
+Profesional y Confiable: Conocemos el mercado de la Isla de Margarita a la perfección y garantizamos seguridad en cada paso.
+
+Inspiradora y Soñadora: No vendemos metros cuadrados, vendemos el lugar donde se construirán recuerdos. Hablamos de "hogar", "sueños" y "paraíso".
+
+Propuesta Única de Valor: Margarita RV transforma la compleja tarea de comprar, vender o alquilar una propiedad en una experiencia humana, segura y memorable en la Isla de Margarita.
+
+2. Logotipo
+El logotipo es el corazón visual de nuestra identidad. Su uso debe ser consistente y respetuoso.
+
+Reglas de Uso:
+
+Versión Principal: El logotipo a color (turquesa y dorado) es la versión preferida y debe usarse sobre fondos blancos o muy claros para garantizar el máximo impacto y legibilidad.
+
+Espacio de Respeto: Siempre debe existir un margen de espacio en blanco alrededor del logotipo, equivalente al alto de la letra "M" de "MARGARITA". Esto asegura que no se vea ahogado por otros elementos.
+
+Proporciones: Nunca estirar, condensar o distorsionar el logotipo. Siempre debe escalarse de manera proporcional.
+
+Uso en Imágenes: Cuando se coloque sobre una fotografía (como en las imágenes proporcionadas), debe ubicarse en una esquina donde no compita con el punto focal de la imagen y el fondo sea lo suficientemente claro o desenfocado para permitir su legibilidad.
+
+3. Paleta de Colores
+Nuestros colores evocan el mar, el sol y la calidez del Caribe, combinados con la seriedad y confianza del sector inmobiliario.
+
+Primarios:
+
+Turquesa Caribe (#00A99D): Representa el mar, la tranquilidad, la frescura y la confianza. Ideal para botones de llamada a la acción (CTA), íconos y titulares destacados.
+
+Dorado Arena (#D4AF37): Simboliza el sol, la calidez, la calidad y el valor de una inversión. Perfecto para acentos, elementos decorativos y texto secundario importante.
+
+Secundarios:
+
+Gris Oscuro (#333333): Será el color principal para el texto del cuerpo. Ofrece una excelente legibilidad sin la dureza del negro puro.
+
+Blanco Humo (#F4F4F4): Ideal para los fondos de las secciones de la landing page. Aporta limpieza y calidez, permitiendo que los colores primarios y las imágenes resalten.
+
+Blanco (#FFFFFF): Para fondos, espacios negativos y texto sobre fondos oscuros.
+
+4. Tipografía
+La tipografía es la voz de nuestra marca puesta por escrito. Hemos elegido una combinación moderna, legible y amigable.
+
+Para Títulos y Encabezados (H1, H2, H3): Montserrat
+
+Uso: En mayúsculas o tipo oración, con un peso audaz (Bold o Semibold). Es una fuente limpia, geométrica pero con un toque cálido, que transmite profesionalismo y modernidad.
+
+Ejemplo de Titular: "El Hogar de Tus Sueños en el Paraíso te Espera"
+
+Para Párrafos y Cuerpo de Texto: Lato
+
+Uso: Con un peso regular (Regular). Es una fuente muy legible en pantalla, con una apariencia amigable y abierta que invita a la lectura y refuerza nuestra cercanía.
+
+Ejemplo de párrafo: "En Margarita RV, te acompañamos en cada paso para que encuentres no solo una casa, sino el lugar al que siempre llamarás hogar. Nuestra misión es..."
+
+5. Tono de Voz y Estilo de Redacción
+El "cómo lo decimos" es tan importante como "qué decimos".
+
+Tono: Cercano, empático, optimista y seguro.
+
+Tratamiento: Usar siempre el "tú" para crear una conexión directa y personal.
+
+Enfoque en el Beneficio: En lugar de decir "Vendemos propiedades", decimos "Te ayudamos a encontrar el hogar donde tu alma florezca". En lugar de "Asesoría legal", decimos "Para que te sientas seguro y respaldado en todo momento".
+
+Palabras Clave: Sueño, hogar, paraíso, familia, tranquilidad, seguridad, confianza, futuro, recuerdos, vivir, disfrutar.
