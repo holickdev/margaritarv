@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "./../assets/img/logo.webp";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -9,7 +10,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="#inicio" className="flex items-center space-x-3">
-              <img src="/src/assets/logo.webp" alt="Logo" className="h-12 w-auto" />
+              <img src={logo} alt="Logo" className="h-12 w-auto" />
               <div>
                 <h1 className="text-[#00A99D] font-extrabold text-lg leading-tight">Margarita RV</h1>
                 <p className="text-gray-600 text-xs -mt-1">Isla de Margarita · Tu hogar en el paraíso</p>

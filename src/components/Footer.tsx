@@ -1,4 +1,6 @@
 import { Mail, Phone, MapPin, Instagram } from "lucide-react";
+import logo from "./../assets/img/logo.webp";
+
 
 export function Footer() {
   return (
@@ -7,7 +9,7 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 items-start">
           <div className="space-y-4 md:col-span-2">
             <div className="flex items-center space-x-4">
-              <img src="/src/assets/logo.webp" alt="Logo" className="h-12 w-auto" />
+              <img src={logo} alt="Logo" className="h-12 w-auto" />
               <div>
                 <h3 className="text-2xl font-extrabold text-[#00A99D]">Margarita RV</h3>
                 <p className="text-sm text-gray-600">Tu guía confiable en la Isla de Margarita</p>

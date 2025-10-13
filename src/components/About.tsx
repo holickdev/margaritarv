@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import handshake from './../assets/img/handshake-house.jpg';
-import familyfun from './../assets/img/family-fun.jpg';
+import handshake from './../assets/img/handshake-house.webp';
+import familyfun from './../assets/img/family-fun.webp';
 
 export function About() {
   useEffect(() => {
